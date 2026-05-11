@@ -9,8 +9,8 @@ import org.testng.annotations.BeforeTest;
 import java.time.Duration;
 
 public class Set_Up {
-    WebDriver driver;
-    WebDriverWait wait;
+    public WebDriver driver;
+    public WebDriverWait wait;
     @BeforeTest
     public void setUp(){
         driver=new ChromeDriver();
@@ -20,7 +20,6 @@ public class Set_Up {
     }
     @AfterTest
     public void teatDown() throws InterruptedException{
-        Thread.sleep(15000);
         driver.quit();
     }
 }
