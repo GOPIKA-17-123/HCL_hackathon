@@ -8,8 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import java.time.Duration;
 
 public class Webtable extends Set_Up {
+    String url="https://demoqa.com/webtables";
+    WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
     @Test(dataProvider = "Addrow",priority = 1)
     public void addRow(String fname, String lname, String email, String age, String salary, String dept ) {
         driver.get("https://demoqa.com/webtables");
@@ -33,19 +36,19 @@ public class Webtable extends Set_Up {
     }
     @Test(priority=2)
     public void search() {
-        driver.get("https://demoqa.com/webtables");
+        driver.get(url);
         driver.findElement(By.id("searchBox")).sendKeys("Pradeep");
         boolean status=driver.getPageSource().contains("Pradeep");
         Assert.assertTrue(status);
     }
     @Test(priority = 3)
     public void delete() throws InterruptedException{
-        driver.get("https://demoqa.com/webtables");
+        driver.get(url);
         driver.findElement(By.xpath("//div[@class='action-buttons']")).click();
     }
     @Test(priority = 4)
     public void pagination() {
-        driver.get("https://demoqa.com/webtables");
+        driver.get(url);
         WebElement nextButton = driver.findElement(By.xpath("//button[text()='Next']"));
         boolean status = nextButton.isEnabled();
         Assert.assertFalse(status);

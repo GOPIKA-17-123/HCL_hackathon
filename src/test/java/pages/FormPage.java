@@ -2,12 +2,15 @@ package pages;
 
 import com.krce.Set_Up;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class FormPage extends Set_Up {
+import java.time.Duration;
 
+public class FormPage extends Set_Up {
+    WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
     @Test(dataProvider = "formData")
     public void registration(String fname, String lname, String email, String phone, String address) {
         driver.get("https://demoqa.com/automation-practice-form");
