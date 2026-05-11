@@ -16,7 +16,7 @@ public class Set_Up {
         driver=new ChromeDriver();
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();
-        wait= new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait= new WebDriverWait(driver, Duration.ofSeconds(20));
     }
     @AfterTest
     public void teatDown() throws InterruptedException{
