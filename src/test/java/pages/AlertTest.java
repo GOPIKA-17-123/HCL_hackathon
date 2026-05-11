@@ -2,14 +2,13 @@ package pages;
 
 import com.krce.Set_Up;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class AlertPage extends Set_Up {
+public class AlertTest extends Set_Up {
     String url="https://demoqa.com/alerts";
     @Test(priority = 1)
     public void simpleAlert() {
