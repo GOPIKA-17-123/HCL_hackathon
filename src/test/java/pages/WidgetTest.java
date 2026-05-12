@@ -1,17 +1,11 @@
 package pages;
-
 import com.krce.Set_Up;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
-
 public class WidgetTest extends Set_Up {
      String dateurl="https://demoqa.com/date-picker";
     @Test(priority=1)
@@ -39,5 +33,6 @@ public class WidgetTest extends Set_Up {
         driver.get("https://demoqa.com/accordian");
         driver.findElement(By.xpath("//button[@class='accordion-button collapsed']")).click();
         driver.findElement(By.xpath("//div[@class='accordion-body']")).isDisplayed();
+
     }
 }

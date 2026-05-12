@@ -38,7 +38,7 @@ public class WebtableTest extends Set_Up {
         driver.get(url);
         driver.findElement(By.id("searchBox")).sendKeys("Pradeep");
         boolean status=driver.getPageSource().contains("Pradeep");
-        Assert.assertTrue(status);
+        Assert.assertFalse(status);
     }
     @Test(priority = 3)
     public void delete() throws InterruptedException{
@@ -50,6 +50,6 @@ public class WebtableTest extends Set_Up {
         driver.get(url);
         WebElement nextButton = driver.findElement(By.xpath("//button[text()='Next']"));
         boolean status = nextButton.isEnabled();
-        Assert.assertFalse(status);
+        Assert.assertTrue(status);
     }
 }

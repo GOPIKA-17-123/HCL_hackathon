@@ -1,5 +1,4 @@
 package pages;
-
 import com.krce.Set_Up;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -29,8 +28,6 @@ public class FormTest extends Set_Up {
         WebElement state = wait.until(ExpectedConditions.elementToBeClickable(By.id("state")));
         state.click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(text(),'NCR')]"))).click();
-        //driver.findElement(By.id("city")).click();
-        //wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(text(),'Delhi')]"))).click();
         driver.findElement(By.id("submit")).click();
     }
     @DataProvider(name = "formData")
