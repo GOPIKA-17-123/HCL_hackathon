@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-12T04:22:12 IST" name="Surefire suite" finished-at="2026-05-12T04:25:31 IST" duration-ms="199849">
+    <groups>
+    </groups>
+    <test started-at="2026-05-12T04:22:12 IST" name="Surefire test" finished-at="2026-05-12T04:25:31 IST" duration-ms="199849">
+      <class name="pages.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.FormTest@5bd03f44]" started-at="2026-05-12T04:22:59 IST" name="setUp" finished-at="2026-05-12T04:23:09 IST" duration-ms="9981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pages.FormTest@5bd03f44]" started-at="2026-05-12T04:23:09 IST" name="registration" data-provider="formData" finished-at="2026-05-12T04:23:14 IST" duration-ms="5171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pradeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pradeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9361337308]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.FormTest@5bd03f44]" started-at="2026-05-12T04:23:14 IST" name="teatDown" finished-at="2026-05-12T04:23:14 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- pages.FormTest -->
+      <class name="pages.WebtableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:23:34 IST" name="setUp" finished-at="2026-05-12T04:24:03 IST" duration-ms="28325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addRow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:03 IST" name="addRow" data-provider="Addrow" finished-at="2026-05-12T04:24:07 IST" duration-ms="4658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pradeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pradeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRow -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:07 IST" name="teatDown" finished-at="2026-05-12T04:24:08 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:08 IST" name="setUp" finished-at="2026-05-12T04:24:15 IST" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search()[pri:2, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:15 IST" name="search" finished-at="2026-05-12T04:24:17 IST" duration-ms="1848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:17 IST" name="teatDown" finished-at="2026-05-12T04:24:18 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:18 IST" name="setUp" finished-at="2026-05-12T04:24:33 IST" duration-ms="15267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="delete()[pri:3, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:33 IST" name="delete" finished-at="2026-05-12T04:24:34 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:34 IST" name="teatDown" finished-at="2026-05-12T04:24:35 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:35 IST" name="setUp" finished-at="2026-05-12T04:24:43 IST" duration-ms="8251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pagination()[pri:4, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:43 IST" name="pagination" finished-at="2026-05-12T04:24:44 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagination -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WebtableTest@636be97c]" started-at="2026-05-12T04:24:44 IST" name="teatDown" finished-at="2026-05-12T04:24:45 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- pages.WebtableTest -->
+      <class name="pages.IFrameTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:14 IST" name="setUp" finished-at="2026-05-12T04:23:22 IST" duration-ms="7889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="frameParent()[pri:1, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:22 IST" name="frameParent" finished-at="2026-05-12T04:23:24 IST" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameParent -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:24 IST" name="teatDown" finished-at="2026-05-12T04:23:24 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:24 IST" name="setUp" finished-at="2026-05-12T04:23:32 IST" duration-ms="8450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="frameChild()[pri:2, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:32 IST" name="frameChild" finished-at="2026-05-12T04:23:34 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameChild -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.IFrameTest@29626d54]" started-at="2026-05-12T04:23:34 IST" name="teatDown" finished-at="2026-05-12T04:23:34 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- pages.IFrameTest -->
+      <class name="pages.WidgetTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:24:45 IST" name="setUp" finished-at="2026-05-12T04:24:57 IST" duration-ms="12545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="datePicker()[pri:1, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:24:57 IST" name="datePicker" finished-at="2026-05-12T04:24:59 IST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePicker -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:24:59 IST" name="teatDown" finished-at="2026-05-12T04:25:00 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:00 IST" name="setUp" finished-at="2026-05-12T04:25:18 IST" duration-ms="18001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="slider()[pri:2, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:18 IST" name="slider" finished-at="2026-05-12T04:25:19 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:19 IST" name="teatDown" finished-at="2026-05-12T04:25:20 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:20 IST" name="setUp" finished-at="2026-05-12T04:25:30 IST" duration-ms="9887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accordian()[pri:3, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:30 IST" name="accordian" finished-at="2026-05-12T04:25:31 IST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accordian -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.WidgetTest@50a638b5]" started-at="2026-05-12T04:25:31 IST" name="teatDown" finished-at="2026-05-12T04:25:31 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- pages.WidgetTest -->
+      <class name="pages.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:12 IST" name="setUp" finished-at="2026-05-12T04:22:22 IST" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="simpleAlert()[pri:1, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:22 IST" name="simpleAlert" finished-at="2026-05-12T04:22:23 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlert -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:23 IST" name="teatDown" finished-at="2026-05-12T04:22:24 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:24 IST" name="setUp" finished-at="2026-05-12T04:22:33 IST" duration-ms="9410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmAlert()[pri:2, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:33 IST" name="confirmAlert" finished-at="2026-05-12T04:22:34 IST" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmAlert -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:34 IST" name="teatDown" finished-at="2026-05-12T04:22:35 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:35 IST" name="setUp" finished-at="2026-05-12T04:22:46 IST" duration-ms="11065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="promptAlert()[pri:3, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:46 IST" name="promptAlert" finished-at="2026-05-12T04:22:47 IST" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlert -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:47 IST" name="teatDown" finished-at="2026-05-12T04:22:48 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:48 IST" name="setUp" finished-at="2026-05-12T04:22:56 IST" duration-ms="8606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newTabWindow()[pri:4, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:56 IST" name="newTabWindow" finished-at="2026-05-12T04:22:58 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabWindow -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:pages.AlertTest@3967e60c]" started-at="2026-05-12T04:22:58 IST" name="teatDown" finished-at="2026-05-12T04:22:59 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- pages.AlertTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
